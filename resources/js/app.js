@@ -1,7 +1,2 @@
-import './bootstrap';
-
-import Alpine from 'alpinejs';
-
-window.Alpine = Alpine;
-
-Alpine.start();
+import './bootstrap'; // Keeps Laravel's default axios setup etc.
+import * as bootstrap from 'bootstrap'; // Import Bootstrap's JS
